@@ -5,12 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>arcturus</title>
   </head>
+  <style>
+    .search-container {
+      float: middle;
+      cursor: pointer;
+      border: none;
+      margin-right: 20px;
+      margin-top: 8px;
+      padding: 6px 10px;
+      background: #ffffff;
+    }
+
+    #search-input {
+      width: 200px;
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 18px Helvetica, sans-serif;
+    }
+
+    #search_button {
+      
+    }
+
+  </style>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search..." />
+      <button id="search-button">Search</button>
+    </div>
 
     <input type="date" id="datepicker"/>
     <div id="app"></div>
+
+    
+
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+
+    
+    
     
   </body>
 </html>
