@@ -2,6 +2,8 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
   <main>
-    <h1>Hello world!</h1>
+    
   </main>
 `
+const date = document.querySelector("#datepicker").value;
+fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&date=${date}`);
