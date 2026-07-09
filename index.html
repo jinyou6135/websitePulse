@@ -6,71 +6,22 @@
     <title>arcturus</title>
   </head>
   <style>
-    body {
-      overflow: hidden;
-      width: 100vw;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-      cursor: default;
-    }
-
-    .search-container {
-      border: none;
-      margin-right: 20px;
-      margin-top: 8px;
-      padding: 6px 10px;
-      background: #ffffff;
-      justify-content: center;
-      display: flex;
-    }
-
-    #search-input {
-      width: 200px;
-      padding: 6px 10px;
-      border: 1px solid black;
-      border-radius: 4px;
-      font: 20px Calibri, sans-serif;
-      overflow: hidden;
-      width: 70%;
-      margin-top: 10vh;
-      height: 40px;
-      cursor: text;
-    }
-
-    #search-input::placeholder {
-      font: 20px Calibri, sans-serif;
-      color: black;
-    }
-
-
-    .data-picker {
-      display: flex;
-      justify-content: center;
-      margin-top: 10vh;
-    }
-
-    #datepicker {
-      width: 150px;
-      height: 25px;
-      cursor: progress;
-      font: 18px Calibri, sans-serif;
-      text-align: center;
-    }
+    
     
 
   </style>
   <body>
+    
     <div class="search-container">
       <input type="text" id="search-input" placeholder="Search here..." />
     </div>
 
     <div class="data-picker">
       <input type="date" id="datepicker"/>
-      <div id="app"></div>
     </div>
 
-    <script type="module" src="/src/main.js"></script>
+    <div id="app"></div>
 
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
