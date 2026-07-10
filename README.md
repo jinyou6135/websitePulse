@@ -8,7 +8,9 @@ https://github.com/user-attachments/assets/968ba3d4-6595-47ad-8458-a219e489718d
 
 
 ## Demo Link
-If you want to test out this project, you can do so here: https://jinyou6135.github.io/websitePulse/! To set this up, just click and open the link and navigate through the website!
+If you want to test out this project, you can do so here: https://jinyou6135.github.io/websitePulse/! 
+
+To set this up, just click and open the link and navigate through the website!
 
 ## Features
 - Data from the NASA API retrieved onto this website
